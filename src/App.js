@@ -1,4 +1,3 @@
-import './styles.css';
 //Import route and our compnents
 import {Route, Switch} from 'react-router-dom'; //switch is if/else statement used below
 import Currencies from "./pages/Currencies";

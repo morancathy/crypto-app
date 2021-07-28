@@ -13,7 +13,8 @@
 }
 
 /* this is link tag...remember it has ancor tag */
-/* //space instead of > means decendent instead of 'direct' child */
+/* //space instead of > means decendent instead of 'direct' child . Use this
+beacuse there are other elements that get wrapped that we dont know, so just to be sure*/
 .nav a {
   color: white;
   text-decoration: none;
