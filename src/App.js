@@ -4,6 +4,7 @@ import Currencies from "./pages/Currencies";
 import Main from "./pages/Main";
 import Price from "./pages/Price";
 import Nav from "./components/Nav"
+import Place from "./pages/Place";
 
 function App() {
   return (
@@ -16,6 +17,14 @@ function App() {
         <Route path="/currencies">
           <Currencies />
         </Route>
+        <Route
+          path="/place"
+          render={(routerProps) => <Place {...routerProps} />}
+        />
+        <Route
+          path="/place/:city"
+          render={(routerProps) => <Place {...routerProps} />}
+        />
         <Route
           path="/price/:symbol"
           render={(routerProps) => <Price {...routerProps} />}
